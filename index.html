@@ -4,36 +4,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Artisan Touch</title>
+  <title>Artisan Touch - Painting and Decorating Services</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <h1>Artisan Touch</h1>
-    <p>Professional Painting and Decorating Services in London</p>
-    <a href="#contact" class="btn">Contact Us</a>
+    <p>Your Trusted Partner for Painting and Decorating in London</p>
+    <a href="#contact" class="btn">Get a Free Quote</a>
   </header>
   <nav>
     <ul>
+      <li><a href="#about">About Us</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>At Artisan Touch, we specialize in providing high-quality painting and decorating services across London. 
+    With over 10 years of experience, we bring craftsmanship and attention to detail to every project, whether it’s 
+    residential, commercial, or industrial. Our team is committed to transforming your space into something beautiful.</p>
+  </section>
   <section id="services" class="section">
     <h2>Our Services</h2>
-    <p>We offer top-quality painting and decorating services tailored to your needs.</p>
+    <div class="services">
+      <div class="service-item">
+        <h3>Residential Painting</h3>
+        <p>Transform your home with our expert interior and exterior painting services. We use high-quality materials 
+        to ensure a flawless finish.</p>
+      </div>
+      <div class="service-item">
+        <h3>Commercial Painting</h3>
+        <p>Enhance your business space with professional painting services designed to create a welcoming and 
+        professional environment.</p>
+      </div>
+      <div class="service-item">
+        <h3>Wallpaper Installation</h3>
+        <p>We offer precise and stylish wallpaper installation to give your walls a unique and elegant look.</p>
+      </div>
+    </div>
   </section>
   <section id="gallery" class="section">
     <h2>Gallery</h2>
+    <p>Explore some of our completed projects below:</p>
     <div class="gallery">
-      <img src="https://via.placeholder.com/200x150" alt="Gallery image 1">
-      <img src="https://via.placeholder.com/200x150" alt="Gallery image 2">
-      <img src="https://via.placeholder.com/200x150" alt="Gallery image 3">
+      <img src="https://via.placeholder.com/300x200" alt="Project 1">
+      <img src="https://via.placeholder.com/300x200" alt="Project 2">
+      <img src="https://via.placeholder.com/300x200" alt="Project 3">
+      <img src="https://via.placeholder.com/300x200" alt="Project 4">
+    </div>
+  </section>
+  <section id="testimonials" class="section">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonials">
+      <blockquote>
+        <p>"Artisan Touch transformed my living room into a beautiful space. Highly recommend their services!"</p>
+        <cite>- Sarah T.</cite>
+      </blockquote>
+      <blockquote>
+        <p>"Professional, reliable, and excellent results. Thank you for your hard work!"</p>
+        <cite>- James L.</cite>
+      </blockquote>
     </div>
   </section>
   <section id="contact" class="section">
     <h2>Contact Us</h2>
+    <p>Get in touch with us to discuss your project and get a free quote:</p>
     <form>
       <label for="name">Name</label>
       <input type="text" id="name" placeholder="Your Name">
@@ -41,11 +80,12 @@
       <input type="email" id="email" placeholder="Your Email">
       <label for="message">Message</label>
       <textarea id="message" rows="4" placeholder="Your Message"></textarea>
-      <button type="submit">Send</button>
+      <button type="submit">Submit</button>
     </form>
   </section>
   <footer>
-    <p>&copy; 2025 Artisan Touch. All rights reserved.</p>
+    <p>&copy; 2025 Artisan Touch | <a href="mailto:contact@artisantouch.com">contact@artisantouch.com</a></p>
+    <p>Follow us: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
   </footer>
 </body>
 </html>
